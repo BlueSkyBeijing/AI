@@ -1,7 +1,9 @@
 import tensorflow as tf
+from tensorflow.keras import layers
 
-#print tensorflow version
-print(tf.__version__)
+print("tensorflow version: ", tf.__version__)
+
+print("keras version: ", tf.keras.__version__)
 
 tf.compat.v1.disable_eager_execution()
 hello = tf.constant('Hello, TensorFlow!')
